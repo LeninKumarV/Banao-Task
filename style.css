@@ -1,0 +1,429 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+  * {
+      padding: 0%;
+      margin: 0%;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+
+  }
+
+  /*navbar-start*/
+  .navbar {
+      width: 100%;
+      height: 60px;
+      /* padding: 5px 5%; */
+      position: fixed;
+      top: 0%;
+      left: 0%;
+      right: 0%;
+      background-color: white;
+      z-index: 10000;    
+}
+
+  .navbar .container-fluid .collapse .navbar-nav {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: row;
+  }
+
+  .btn1 {
+      background-color: transparent;
+      border: 2px solid #8064A2;
+      color: #8064A2;
+      padding: 3px 7px;
+      border-radius: 5px;
+      font-weight: 600;
+  }
+
+  i {
+      color: #8064A2;
+  }
+
+  .btn {
+      background-color: #8064A2;
+      border: 1px solid #8064A2;
+      border-top-left-radius: 0%;
+      border-bottom-left-radius: 0%;
+      border-bottom-right-radius: 4px;
+      border-top-right-radius: 4px;
+  }
+
+  .btn i {
+      color: white;
+  }
+
+  .form {
+      border-bottom-right-radius: 0%;
+      border-top-right-radius: 0%;
+      border-bottom-left-radius: 4px;
+      border-top-left-radius: 4px;
+      outline: none;
+      border: none;
+      border: 1px solid gainsboro;
+      padding: 0% 30px;
+  }
+
+  .form {
+      font-size: 13px;
+  }
+
+  i:hover {
+      color: blueviolet;
+  }
+
+  .form:active {
+      outline: none;
+  }
+
+  .navbar img {
+      width: 70%;
+  }
+
+  .btn:hover {
+      background-color: #8064A2;
+      color: white;
+  }
+
+  .btn i:hover {
+      color: white;
+  }
+
+  /*navbar-end*/
+
+  /*home*/
+  .home {
+      width: 100%;
+      height: 100vh;
+      background-color: #F7F5F9;
+      margin-top: 0px;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      flex-direction: row;
+      padding: 0% 5%;
+      column-gap: 3%;
+  }
+
+  .home .left {
+      width: 60%;
+  }
+
+  .home .right {
+      width: 40%;
+      height: 60%;
+      position: relative;
+        z-index: 1;
+    }
+
+  .home .right .signin {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: column;
+      position: absolute;
+  }
+
+  .home .right .signin button {
+      background-color: transparent;
+      width: 70%;
+      padding: 7px 0%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      border: none;
+      border: 2px solid #8064A2;
+      font-weight: bold;
+      font-size: 14px;
+      text-align: center;
+      padding-right: 10%;
+      border-radius: 10px;
+  }
+
+  .home .right .signin input {
+      width: 70%;
+      padding: 5px 0%;
+      background-color: white;
+      border-radius: 5px;
+      border: 1px solid #F7F5F9;
+      padding-left: 10px;
+      outline: none;
+  }
+
+  .home .right .signin .line {
+      text-align: center;
+  }
+
+  .home .right .signin .line img {
+      width: 20%;
+  }
+
+  .right .btns button {
+      background-color: transparent;
+      border: none;
+      font-weight: bold;
+  }
+
+  .right .btns {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      padding-bottom: 20px;
+  }
+
+  .right .bot {
+      width: 70%;
+      font-size: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: row;
+  }
+
+  .bot .bot1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .right .btns button:hover {
+      border-bottom: 2px solid #8064A2;
+  }
+
+  #form1 {
+      opacity: 1;
+      transition: all linear 0.3s;
+    }
+
+  #form2 {
+      opacity: 0;
+      transition: all linear 0.3s;
+    }
+    #form11 {
+        opacity: 1;
+        transition: all linear 0.3s;
+      }
+  
+    #form21 {
+        opacity: 0;
+        transition: all linear 0.3s;
+      }
+    .dropdown-menu{
+        z-index: 10;
+    }
+
+    /*card*/
+    .card{
+     width: 100%;
+     overflow: hidden;
+     padding: 5%;   
+    }
+
+    .card .row button{
+        background-color: transparent;
+        color: #8064A2;
+        border: 1px solid #8064A2;
+        font-size: 13px;
+        font-weight: bold;
+        width: 80px;
+        height: 30px;
+        border-radius: 5px;
+    }
+    .card #c1:hover{
+        background-color:#8064A2;
+        color: white;
+        transition: all linear 0.5s;
+    }
+
+    /* add own*/
+    .own{
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        padding: 5%;
+        background-color: #F7FDFF;
+      }
+    .own button{
+        background-color: transparent;
+        color: #8064A2;
+        border: 1px solid #8064A2;
+        font-size: 13px;
+        font-weight: bold;
+        width: 80px;
+        height: 30px;
+        border-radius: 5px;
+        
+    }
+
+    /*testimonals*/
+    .testimonals{
+        width: 100%;
+        height: auto;
+        padding: 5%;
+        overflow: hidden;
+    }
+    .audio{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    /*community*/
+    .community{
+        width: 100%;
+        height: auto;
+        background-color: #F7FDFF;
+        padding: 5%;
+    }
+    .community .c{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-direction:column;    
+        row-gap: 10px;
+    }
+    .community .c button{
+        border: none;
+        outline: none;
+        background-color: #8064A2;
+        color: white;
+        padding: 5px 10px;
+        font-size: 13px;
+        font-weight: bold;
+        font-style: italic;
+        border-radius: 5px;
+    }
+    /*footer*/
+    #icon{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        column-gap: 20px;
+    }
+    #home{
+        display: none;
+    }
+    .footer ul li a{
+        text-decoration: none;
+        color: black;
+    }
+    
+    @media (max-width:990px) {
+        .navbar{
+            width: 100% !important;
+        }
+        .collapse .navbar-nav{
+            width: 100% !important;
+            padding: 1%;
+            height: auto;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start !important;
+            flex-direction: column !important;
+        }
+        .home{
+            width: 100%;
+            height: auto;
+
+        }
+        .home .left{
+            overflow: hidden;
+        }
+        .community img{
+            width: 100%;
+            overflow: hidden;
+            background-position: center;
+            background-size: cover;
+        }
+    }
+
+    @media (max-width:768px) {
+        .home{
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .home .left{
+            width: 100%;
+            overflow: visible;
+            margin-top: 10%;
+        }
+        .home .left p{
+            font-size: 14px;
+        }
+        .home .right{
+            width: 100%;
+            height: 50vh;
+            overflow: hidden;
+        }
+        .card{
+            overflow-x: hidden;
+        }
+        .community{
+            overflow-x: hidden;
+        }
+        .own{
+            overflow-x: hidden;
+        }
+        .home{
+            display: none;
+            overflow-x: hidden;
+        }
+    }
+
+    @media (max-width:410px) {
+        .home{
+            display: none;
+            overflow-x: hidden;
+        }
+        .navbar .navbar-toggler{
+            position: fixed;
+            top: 1%;
+            right: 0%;
+
+        }
+        .navbar .logo{
+            width: 70%;
+        }
+        #home{
+            display: block;
+            height: 150vh;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            padding-top: 10%;
+        }
+        .card{
+            overflow-x: hidden;
+        }
+        .community{
+            overflow-x: hidden;
+        }
+        .own{
+            overflow-x: hidden;
+        }
+        #home .right{
+            overflow: visible;
+            height: auto;
+            padding-bottom: 100%;
+        }
+        .footer .row{
+            display: flex;
+            flex-direction: column;
+        }
+
+    }
+    @media (max-width:380px) {
+        
+    }
